@@ -135,14 +135,14 @@ export default function FAQ() {
                 ></span>
               </div>
               <div className="relative">
-                <div className="relative flex items-center justify-between py-8 space-x-8 border-b-2 border-black px-14">
+                <button
+                  onClick={() => setFaq("faq-1")}
+                  className="relative flex items-center justify-between w-full py-8 space-x-8 text-left border-b-2 border-black focus:outline-none px-14"
+                >
                   <p className="text-3xl">
                     Who are BeZero Carbon & Carbon Engineering?
                   </p>
-                  <button
-                    onClick={() => setFaq("faq-1")}
-                    className="p-2 focus:outline-none"
-                  >
+                  <span>
                     <svg
                       width="18"
                       height="17"
@@ -155,7 +155,7 @@ export default function FAQ() {
                         fill="#333333"
                       />
                     </svg>
-                  </button>
+                  </span>
                   <span
                     aria-hidden="true"
                     className="
@@ -167,15 +167,15 @@ export default function FAQ() {
                   right-[-40px]
                 "
                   ></span>
-                </div>
-                <div className="relative flex items-center justify-between py-8 space-x-8 border-b-2 border-black px-14">
+                </button>
+                <button
+                  onClick={() => setFaq("faq-2")}
+                  className="relative flex items-center justify-between w-full py-8 space-x-8 text-left border-b-2 border-black focus:outline-none px-14"
+                >
                   <p className="text-3xl">
                     What is the BeZero Carbon Ratings framework?
                   </p>
-                  <button
-                    onClick={() => setFaq("faq-2")}
-                    className="p-2 focus:outline-none"
-                  >
+                  <span>
                     <svg
                       width="18"
                       height="17"
@@ -188,7 +188,7 @@ export default function FAQ() {
                         fill="#333333"
                       />
                     </svg>
-                  </button>
+                  </span>
                   <span
                     aria-hidden="true"
                     className="
@@ -200,15 +200,15 @@ export default function FAQ() {
                   right-[-40px]
                 "
                   ></span>
-                </div>
-                <div className="relative flex items-center justify-between py-8 space-x-8 border-b-2 border-black px-14">
+                </button>
+                <button
+                  onClick={() => setFaq("faq-3")}
+                  className="relative flex items-center justify-between w-full py-8 space-x-8 text-left border-b-2 border-black focus:outline-none px-14"
+                >
                   <p className="text-3xl">
                     What is Direct Air Capture technology?
                   </p>
-                  <button
-                    onClick={() => setFaq("faq-3")}
-                    className="p-2 focus:outline-none"
-                  >
+                  <span>
                     <svg
                       width="18"
                       height="17"
@@ -221,7 +221,7 @@ export default function FAQ() {
                         fill="#333333"
                       />
                     </svg>
-                  </button>
+                  </span>
                   <span
                     aria-hidden="true"
                     className="
@@ -233,15 +233,15 @@ export default function FAQ() {
                   right-[-40px]
                 "
                   ></span>
-                </div>
-                <div className="relative flex items-center justify-between py-8 space-x-8 border-b-2 border-black px-14">
+                </button>
+                <button
+                  onClick={() => setFaq("faq-4")}
+                  className="relative flex items-center justify-between w-full py-8 space-x-8 text-left border-b-2 border-black focus:outline-none px-14"
+                >
                   <p className="text-3xl">
                     What happens when I buy DAC Removal Units?
                   </p>
-                  <button
-                    onClick={() => setFaq("faq-4")}
-                    className="p-2 focus:outline-none"
-                  >
+                  <span>
                     <svg
                       width="18"
                       height="17"
@@ -254,7 +254,7 @@ export default function FAQ() {
                         fill="#333333"
                       />
                     </svg>
-                  </button>
+                  </span>
                   <span
                     aria-hidden="true"
                     className="
@@ -266,15 +266,15 @@ export default function FAQ() {
                   right-[-40px]
                 "
                   ></span>
-                </div>
-                <div className="relative flex items-center justify-between py-8 space-x-8 border-b-2 border-black px-14">
+                </button>
+                <button
+                  onClick={() => setFaq("faq-5")}
+                  className="relative flex items-center justify-between w-full py-8 space-x-8 text-left border-b-2 border-black focus:outline-none px-14"
+                >
                   <p className="text-3xl">
                     Why buy BeZero’s premium carbon removal basket?
                   </p>
-                  <button
-                    onClick={() => setFaq("faq-5")}
-                    className="p-2 focus:outline-none"
-                  >
+                  <span>
                     <svg
                       width="18"
                       height="17"
@@ -287,7 +287,7 @@ export default function FAQ() {
                         fill="#333333"
                       />
                     </svg>
-                  </button>
+                  </span>
                   <span
                     aria-hidden="true"
                     className="
@@ -299,15 +299,15 @@ export default function FAQ() {
                   right-[-40px]
                 "
                   ></span>
-                </div>
-                <div className="flex items-center justify-between py-8 space-x-8 px-14">
+                </button>
+                <button
+                  onClick={() => setFaq("faq-6")}
+                  className="flex items-center justify-between w-full py-8 space-x-8 text-left focus:outline-none px-14"
+                >
                   <p className="text-3xl">
                     What happens when I buy BeZero’s premium removal basket?
                   </p>
-                  <button
-                    onClick={() => setFaq("faq-6")}
-                    className="p-2 focus:outline-none"
-                  >
+                  <span>
                     <svg
                       width="18"
                       height="17"
@@ -320,10 +320,11 @@ export default function FAQ() {
                         fill="#333333"
                       />
                     </svg>
-                  </button>
-                </div>
+                  </span>
+                </button>
                 <div
-                  className={`absolute inset-0 bg-white ${
+                  onClick={() => setFaq(null)}
+                  className={`absolute cursor-pointer inset-0 bg-white ${
                     faq !== "faq-1" ? "hidden" : ""
                   }`}
                 >
@@ -332,10 +333,7 @@ export default function FAQ() {
                       <h1 className="text-3xl">
                         Who are BeZero Carbon & Carbon Engineering?
                       </h1>
-                      <button
-                        onClick={() => setFaq(null)}
-                        className="p-2 focus:outline-none"
-                      >
+                      <span>
                         <svg
                           className="rotate-45"
                           width="18"
@@ -349,7 +347,7 @@ export default function FAQ() {
                             fill="#333333"
                           />
                         </svg>
-                      </button>
+                      </span>
                     </div>
                     <div className="mt-8 space-y-6 text-lg">
                       <p>
@@ -379,7 +377,8 @@ export default function FAQ() {
                   </div>
                 </div>
                 <div
-                  className={`absolute inset-0 bg-white ${
+                  onClick={() => setFaq(null)}
+                  className={`absolute cursor-pointer inset-0 bg-white ${
                     faq !== "faq-2" ? "hidden" : ""
                   }`}
                 >
@@ -388,10 +387,7 @@ export default function FAQ() {
                       <h1 className="text-3xl">
                         What is the BeZero Carbon Ratings framework?
                       </h1>
-                      <button
-                        onClick={() => setFaq(null)}
-                        className="p-2 focus:outline-none"
-                      >
+                      <span>
                         <svg
                           className="rotate-45"
                           width="18"
@@ -405,7 +401,7 @@ export default function FAQ() {
                             fill="#333333"
                           />
                         </svg>
-                      </button>
+                      </span>
                     </div>
                     <div className="mt-8 space-y-6 text-lg">
                       <p>
@@ -432,7 +428,8 @@ export default function FAQ() {
                   </div>
                 </div>
                 <div
-                  className={`absolute inset-0 bg-white ${
+                  onClick={() => setFaq(null)}
+                  className={`absolute cursor-pointer inset-0 bg-white ${
                     faq !== "faq-3" ? "hidden" : ""
                   }`}
                 >
@@ -441,10 +438,7 @@ export default function FAQ() {
                       <h1 className="text-3xl">
                         What is Direct Air Capture technology?
                       </h1>
-                      <button
-                        onClick={() => setFaq(null)}
-                        className="p-2 focus:outline-none"
-                      >
+                      <span>
                         <svg
                           className="rotate-45"
                           width="18"
@@ -458,7 +452,7 @@ export default function FAQ() {
                             fill="#333333"
                           />
                         </svg>
-                      </button>
+                      </span>
                     </div>
                     <div className="mt-8 space-y-6 text-lg">
                       <p>
@@ -494,7 +488,8 @@ export default function FAQ() {
                   </div>
                 </div>
                 <div
-                  className={`absolute inset-0 bg-white ${
+                  onClick={() => setFaq(null)}
+                  className={`absolute cursor-pointer inset-0 bg-white ${
                     faq !== "faq-4" ? "hidden" : ""
                   }`}
                 >
@@ -503,10 +498,7 @@ export default function FAQ() {
                       <h1 className="text-3xl">
                         What happens when I buy DAC Removal Units?
                       </h1>
-                      <button
-                        onClick={() => setFaq(null)}
-                        className="p-2 focus:outline-none"
-                      >
+                      <span>
                         <svg
                           className="rotate-45"
                           width="18"
@@ -520,7 +512,7 @@ export default function FAQ() {
                             fill="#333333"
                           />
                         </svg>
-                      </button>
+                      </span>
                     </div>
                     <div className="mt-8 space-y-6 text-lg">
                       <p>
@@ -559,7 +551,8 @@ export default function FAQ() {
                   </div>
                 </div>
                 <div
-                  className={`absolute inset-0 bg-white ${
+                  onClick={() => setFaq(null)}
+                  className={`absolute cursor-pointer inset-0 bg-white ${
                     faq !== "faq-5" ? "hidden" : ""
                   }`}
                 >
@@ -568,10 +561,7 @@ export default function FAQ() {
                       <h1 className="text-3xl">
                         What happens when I buy BeZero’s premium removal basket?
                       </h1>
-                      <button
-                        onClick={() => setFaq(null)}
-                        className="p-2 focus:outline-none"
-                      >
+                      <span>
                         <svg
                           className="rotate-45"
                           width="18"
@@ -585,7 +575,7 @@ export default function FAQ() {
                             fill="#333333"
                           />
                         </svg>
-                      </button>
+                      </span>
                     </div>
                     <div className="mt-8 space-y-6 text-lg">
                       <p>
@@ -615,7 +605,8 @@ export default function FAQ() {
                   </div>
                 </div>
                 <div
-                  className={`absolute inset-0 bg-white ${
+                  onClick={() => setFaq(null)}
+                  className={`absolute cursor-pointer inset-0 bg-white ${
                     faq !== "faq-6" ? "hidden" : ""
                   }`}
                 >
@@ -624,10 +615,7 @@ export default function FAQ() {
                       <h1 className="text-3xl">
                         Why buy BeZero’s premium carbon removal basket?
                       </h1>
-                      <button
-                        onClick={() => setFaq(null)}
-                        className="p-2 focus:outline-none"
-                      >
+                      <span>
                         <svg
                           className="rotate-45"
                           width="18"
@@ -641,7 +629,7 @@ export default function FAQ() {
                             fill="#333333"
                           />
                         </svg>
-                      </button>
+                      </span>
                     </div>
                     <div className="mt-8 space-y-6 text-lg">
                       <p>
