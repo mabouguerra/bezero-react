@@ -3,7 +3,6 @@ import { useState } from "react";
 export default function FAQ() {
   const [faq, setFaq] = useState(null);
 
-  console.log(faq);
   return (
     <div>
       {/* section 3 mobile */}
