@@ -97,32 +97,15 @@ export default function FAQ() {
 
           <div
             onClick={() => setFaq(null)}
-            className={`absolute cursor-pointer inset-y-0 inset-x-[18px] bg-white ${
+            className={`absolute cursor-pointer overflow-y-scroll inset-y-0.5 inset-x-[18px] bg-white ${
               faq !== "faq-1" ? "hidden" : ""
             }`}
           >
             <div className="px-5 py-6">
-              <div className="flex items-center justify-between space-x-6">
-                <h1 className="text-sm font-bold">
-                  Who are BeZero Carbon & Carbon Engineering?
-                </h1>
-                <span>
-                  <svg
-                    className="h-3 rotate-45"
-                    width="18"
-                    height="17"
-                    viewBox="0 0 18 17"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M6.93 16.9H10.77V10.48H17.13V6.7H10.77V0.189999H6.93V6.7H0.57V10.48H6.93V16.9Z"
-                      fill="#333333"
-                    />
-                  </svg>
-                </span>
-              </div>
-              <div className="mt-8 space-y-6 text-lg">
+              <h1 className="text-sm font-bold">
+                Who are BeZero Carbon & Carbon Engineering?
+              </h1>
+              <div className="mt-6 space-y-4 text-sm">
                 <p>
                   BeZero Carbon is a London-based Climate Asset and Liability
                   Management (C·A·L·M) solutions business launched in April,
@@ -149,32 +132,15 @@ export default function FAQ() {
           </div>
           <div
             onClick={() => setFaq(null)}
-            className={`absolute cursor-pointer inset-0 bg-white ${
+            className={`absolute cursor-pointer inset-y-0.5 inset-x-[18px] overflow-y-scroll bg-white ${
               faq !== "faq-2" ? "hidden" : ""
             }`}
           >
-            <div className="py-8 px-14">
-              <div className="flex items-center justify-between space-x-8">
-                <h1 className="text-3xl">
-                  What is the BeZero Carbon Ratings framework?
-                </h1>
-                <span>
-                  <svg
-                    className="rotate-45"
-                    width="18"
-                    height="17"
-                    viewBox="0 0 18 17"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M6.93 16.9H10.77V10.48H17.13V6.7H10.77V0.189999H6.93V6.7H0.57V10.48H6.93V16.9Z"
-                      fill="#333333"
-                    />
-                  </svg>
-                </span>
-              </div>
-              <div className="mt-8 space-y-6 text-lg">
+            <div className="px-5 py-6">
+              <h1 className="text-sm font-bold">
+                What is the BeZero Carbon Ratings framework?
+              </h1>
+              <div className="mt-6 space-y-4 text-sm">
                 <p>
                   The BeZero Carbon Rating is a top-down assessment of the CO2e
                   efficacy of voluntary offsets. BeZero has rated all major
@@ -198,32 +164,15 @@ export default function FAQ() {
           </div>
           <div
             onClick={() => setFaq(null)}
-            className={`absolute cursor-pointer inset-0 bg-white ${
+            className={`absolute cursor-pointer inset-y-0.5 inset-x-[18px] overflow-y-scroll bg-white ${
               faq !== "faq-3" ? "hidden" : ""
             }`}
           >
-            <div className="py-8 px-14">
-              <div className="flex items-center justify-between space-x-8">
-                <h1 className="text-3xl">
-                  What is Direct Air Capture technology?
-                </h1>
-                <span>
-                  <svg
-                    className="rotate-45"
-                    width="18"
-                    height="17"
-                    viewBox="0 0 18 17"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M6.93 16.9H10.77V10.48H17.13V6.7H10.77V0.189999H6.93V6.7H0.57V10.48H6.93V16.9Z"
-                      fill="#333333"
-                    />
-                  </svg>
-                </span>
-              </div>
-              <div className="mt-8 space-y-6 text-lg">
+            <div className="px-5 py-6">
+              <h1 className="text-sm font-bold">
+                What is Direct Air Capture technology?
+              </h1>
+              <div className="mt-6 space-y-4 text-sm">
                 <p>
                   Direct Air Capture (DAC) is a technology that captures carbon
                   dioxide (CO2) directly out of the air with an engineered,
@@ -256,32 +205,15 @@ export default function FAQ() {
           </div>
           <div
             onClick={() => setFaq(null)}
-            className={`absolute cursor-pointer inset-0 bg-white ${
+            className={`absolute cursor-pointer inset-y-0.5 inset-x-[18px] overflow-y-scroll bg-white ${
               faq !== "faq-4" ? "hidden" : ""
             }`}
           >
-            <div className="py-8 px-14">
-              <div className="flex items-center justify-between space-x-8">
-                <h1 className="text-3xl">
-                  What happens when I buy DAC Removal Units?
-                </h1>
-                <span>
-                  <svg
-                    className="rotate-45"
-                    width="18"
-                    height="17"
-                    viewBox="0 0 18 17"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M6.93 16.9H10.77V10.48H17.13V6.7H10.77V0.189999H6.93V6.7H0.57V10.48H6.93V16.9Z"
-                      fill="#333333"
-                    />
-                  </svg>
-                </span>
-              </div>
-              <div className="mt-8 space-y-6 text-lg">
+            <div className="px-5 py-6">
+              <h1 className="text-sm font-bold">
+                What happens when I buy DAC Removal Units?
+              </h1>
+              <div className="mt-6 space-y-4 text-sm">
                 <p>
                   Each DAC removal unit represents one tonne of CO2 captured
                   from the atmosphere, through Carbon Engineering’s DAC
@@ -316,32 +248,15 @@ export default function FAQ() {
           </div>
           <div
             onClick={() => setFaq(null)}
-            className={`absolute cursor-pointer inset-0 bg-white ${
+            className={`absolute cursor-pointer inset-y-0.5 inset-x-[18px] overflow-y-scroll bg-white ${
               faq !== "faq-5" ? "hidden" : ""
             }`}
           >
-            <div className="py-8 px-14">
-              <div className="flex items-center justify-between space-x-8">
-                <h1 className="text-3xl">
-                  What happens when I buy BeZero’s premium removal basket?
-                </h1>
-                <span>
-                  <svg
-                    className="rotate-45"
-                    width="18"
-                    height="17"
-                    viewBox="0 0 18 17"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M6.93 16.9H10.77V10.48H17.13V6.7H10.77V0.189999H6.93V6.7H0.57V10.48H6.93V16.9Z"
-                      fill="#333333"
-                    />
-                  </svg>
-                </span>
-              </div>
-              <div className="mt-8 space-y-6 text-lg">
+            <div className="px-5 py-6">
+              <h1 className="text-sm font-bold">
+                What happens when I buy BeZero’s premium removal basket?
+              </h1>
+              <div className="mt-6 space-y-4 text-sm">
                 <p>
                   Every AAA+ BeZero Rated basket blends one DAC removal unit
                   with an optimised portfolio of the highest quality removal
@@ -368,32 +283,15 @@ export default function FAQ() {
           </div>
           <div
             onClick={() => setFaq(null)}
-            className={`absolute cursor-pointer inset-0 bg-white ${
+            className={`absolute cursor-pointer inset-y-0.5 inset-x-[18px] overflow-y-scroll bg-white ${
               faq !== "faq-6" ? "hidden" : ""
             }`}
           >
-            <div className="py-8 px-14">
-              <div className="flex items-center justify-between space-x-8">
-                <h1 className="text-3xl">
-                  Why buy BeZero’s premium carbon removal basket?
-                </h1>
-                <span>
-                  <svg
-                    className="rotate-45"
-                    width="18"
-                    height="17"
-                    viewBox="0 0 18 17"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M6.93 16.9H10.77V10.48H17.13V6.7H10.77V0.189999H6.93V6.7H0.57V10.48H6.93V16.9Z"
-                      fill="#333333"
-                    />
-                  </svg>
-                </span>
-              </div>
-              <div className="mt-8 space-y-6 text-lg">
+            <div className="px-5 py-6">
+              <h1 className="text-sm font-bold">
+                Why buy BeZero’s premium carbon removal basket?
+              </h1>
+              <div className="mt-6 space-y-4 text-sm">
                 <p>
                   BeZero is committed to a strict policy of reduction-first,
                   offset-second. In other words, individuals and businesses
