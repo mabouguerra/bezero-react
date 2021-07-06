@@ -4,6 +4,7 @@ import Basket from "../components/Basket";
 export default function Home() {
   return (
     <div>
+      <FAQ />
       <Basket />
     </div>
   );

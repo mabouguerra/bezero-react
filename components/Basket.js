@@ -50,11 +50,11 @@ export default function Basket() {
             } mx-10 border-l-2 border-r-2 border-black`}
           >
             <div className="w-[55%] border-black border-r-2 ">
-              <div className="flex">
+              <div className="flex bg-white">
                 <div>
                   <button
                     onClick={() => setTab("tab-1")}
-                    className="flex items-center justify-center p-2 border-r-2 border-black border-r-transparent w-28 focus:outline-none"
+                    className="flex items-center justify-center p-2 bg-white border-r-2 border-black border-r-transparent w-28 focus:outline-none"
                   >
                     <img src="/assets/icon-0.svg" alt="" className="h-24" />
                   </button>
@@ -127,6 +127,7 @@ export default function Basket() {
                   justify-center
                   bg-[#0F8B5D]
                   p-2
+                  border-b-2
                   w-28
                   focus:outline-none
                 "
@@ -134,7 +135,7 @@ export default function Basket() {
                     <img src="/assets/icon-3.svg" alt="" className="h-24" />
                   </button>
                 </div>
-                <div className="px-10 pt-10">
+                <div className="px-10 py-10">
                   <h2 className="text-3xl font-bold">BeZero Carbon Ratings</h2>
                   <h3 className="mt-4 text-lg font-bold leading-tight">
                     A top-down assessment of the CO2e efficacy of voluntary
@@ -187,11 +188,11 @@ export default function Basket() {
             } mx-10 border-l-2 border-r-2 border-black`}
           >
             <div className="w-[55%] border-black border-r-2 ">
-              <div className="flex">
+              <div className="bg-[#741F64] flex">
                 <div>
                   <button
                     onClick={() => setTab("tab-1")}
-                    className="flex items-center justify-center p-2 border-b-2 border-r-2 border-black w-28 focus:outline-none"
+                    className="flex items-center justify-center p-2 bg-white border-b-2 border-r-2 border-black w-28 focus:outline-none"
                   >
                     <img src="/assets/icon-0.svg" alt="" className="h-24" />
                   </button>
@@ -263,6 +264,7 @@ export default function Basket() {
                   border-r-2 border-black border-t-2
                   justify-center
                   bg-[#0F8B5D]
+                  border-b-2
                   p-2
                   w-28
                   focus:outline-none
@@ -271,7 +273,7 @@ export default function Basket() {
                     <img src="/assets/icon-3.svg" alt="" className="h-24" />
                   </button>
                 </div>
-                <div className="px-10 bg-[#741F64] text-white pt-10">
+                <div className="px-10 py-10 text-white">
                   <h2 className="text-3xl font-bold">Carbon Removal</h2>
                   <h3 className="mt-4 text-lg font-bold leading-tight">
                     Carbon Engineering (CE) DAC technology{" "}
@@ -316,7 +318,7 @@ export default function Basket() {
               </div>
             </div>
             <div className="w-[45%] flex flex-col">
-              <div className="flex-1 px-16 py-10 border-b-2 border-black ">
+              <div className="flex-1 px-12 py-10 border-b-2 border-black ">
                 <h2 className="text-3xl font-bold text-center">
                   BeZero Carbon Rating: AAA+
                 </h2>
@@ -342,11 +344,11 @@ export default function Basket() {
             } mx-10 border-l-2 border-r-2 border-black`}
           >
             <div className="w-[55%] border-black border-r-2 ">
-              <div className="flex">
+              <div className="bg-[#0F8B5D] flex">
                 <div>
                   <button
                     onClick={() => setTab("tab-1")}
-                    className="flex items-center justify-center p-2 border-b-2 border-r-2 border-black w-28 focus:outline-none"
+                    className="flex items-center justify-center p-2 bg-white border-b-2 border-r-2 border-black w-28 focus:outline-none"
                   >
                     <img src="/assets/icon-0.svg" alt="" className="h-24" />
                   </button>
@@ -417,6 +419,7 @@ export default function Basket() {
                   items-center
                   border-r-2 border-black border-t-2
                   justify-center
+                  border-b-2
                   bg-[#0F8B5D]
                   p-2
                   w-28
@@ -426,7 +429,7 @@ export default function Basket() {
                     <img src="/assets/icon-3.svg" alt="" className="h-24" />
                   </button>
                 </div>
-                <div className="px-10 bg-[#0F8B5D] text-white pt-10">
+                <div className="px-10 py-10 text-white">
                   <h2 className="text-3xl font-bold">Forestry</h2>
                   <h3 className="mt-4 text-lg font-bold leading-tight">
                     Revegetation with fruit trees in Mozambique (VCS 2085){" "}
@@ -438,7 +441,7 @@ export default function Basket() {
                     livelihoods in the area.
                   </p>
                   <p className="mt-3 text-lg">
-                    <span className="text-bold">Additionality:</span> moderately
+                    <span className="font-bold">Additionality:</span> moderately
                     high scoring as multiple tests conducted during
                     accreditation and conservative baselines used. No
                     project-specific risks found.
@@ -466,7 +469,7 @@ export default function Basket() {
               </div>
             </div>
             <div className="w-[45%] flex flex-col">
-              <div className="flex-1 px-16 py-10 border-b-2 border-black ">
+              <div className="flex-1 px-12 py-10 border-b-2 border-black ">
                 <h2 className="text-3xl font-bold text-center">
                   BeZero Carbon Rating: AA+
                 </h2>
@@ -490,11 +493,11 @@ export default function Basket() {
             } mx-10 border-l-2 border-r-2 border-black`}
           >
             <div className="w-[55%] border-black border-r-2 ">
-              <div className="flex">
+              <div className="flex bg-[#212121]">
                 <div>
                   <button
                     onClick={() => setTab("tab-1")}
-                    className="flex items-center justify-center p-2 border-b-2 border-r-2 border-black w-28 focus:outline-none"
+                    className="flex items-center justify-center p-2 bg-white border-b-2 border-r-2 border-black w-28 focus:outline-none"
                   >
                     <img src="/assets/icon-0.svg" alt="" className="h-24" />
                   </button>
@@ -565,6 +568,7 @@ export default function Basket() {
                   items-center
                   border-r-2 border-black border-t-2
                   justify-center
+                  border-b-2
                   bg-[#0F8B5D]
                   p-2
                   w-28
@@ -574,7 +578,7 @@ export default function Basket() {
                     <img src="/assets/icon-3.svg" alt="" className="h-24" />
                   </button>
                 </div>
-                <div className="px-10 bg-[#212121] text-white pt-10">
+                <div className="px-10 py-10 text-white">
                   <h2 className="text-3xl font-bold">Blue Carbon</h2>
                   <h3 className="mt-4 text-lg font-bold leading-tight">
                     Mangroves reforestation & restoration in Myanmar (VCS 1764)
@@ -616,7 +620,7 @@ export default function Basket() {
               </div>
             </div>
             <div className="w-[45%] flex flex-col">
-              <div className="flex-1 px-16 py-10 border-b-2 border-black ">
+              <div className="flex-1 px-12 py-10 border-b-2 border-black ">
                 <h2 className="text-3xl font-bold text-center">
                   BeZero Carbon Rating: AAA-
                 </h2>
@@ -642,11 +646,11 @@ export default function Basket() {
             } mx-10 border-l-2 border-r-2 border-black`}
           >
             <div className="w-[55%] border-black border-r-2 ">
-              <div className="flex">
+              <div className="flex bg-[#FDCE31]">
                 <div>
                   <button
                     onClick={() => setTab("tab-1")}
-                    className="flex items-center justify-center p-2 border-b-2 border-r-2 border-black w-28 focus:outline-none"
+                    className="flex items-center justify-center p-2 bg-white border-b-2 border-r-2 border-black w-28 focus:outline-none"
                   >
                     <img src="/assets/icon-0.svg" alt="" className="h-24" />
                   </button>
@@ -716,6 +720,7 @@ export default function Basket() {
                   flex
                   items-center
                   border-r-2 border-black border-t-2
+                  border-b-2
                   justify-center
                   bg-[#0F8B5D]
                   p-2
@@ -726,7 +731,7 @@ export default function Basket() {
                     <img src="/assets/icon-3.svg" alt="" className="h-24" />
                   </button>
                 </div>
-                <div className="px-10 bg-[#FDCE31] text-white pt-10">
+                <div className="px-10 py-10 text-white">
                   <h2 className="text-3xl font-bold">Soil Carbon</h2>
                   <h3 className="mt-4 text-lg font-bold leading-tight">
                     Restoration of degraded grasslands in Mongolia (Plan Vivo
@@ -767,7 +772,7 @@ export default function Basket() {
               </div>
             </div>
             <div className="w-[45%] flex flex-col">
-              <div className="flex-1 px-16 py-10 border-b-2 border-black ">
+              <div className="flex-1 px-12 py-10 border-b-2 border-black ">
                 <h2 className="text-3xl font-bold text-center">
                   BeZero Carbon Rating: AAA
                 </h2>
@@ -793,11 +798,11 @@ export default function Basket() {
             } mx-10 border-l-2 border-r-2 border-black`}
           >
             <div className="w-[55%] border-black border-r-2 ">
-              <div className="flex">
+              <div className="flex bg-[#0F8B5D]">
                 <div>
                   <button
                     onClick={() => setTab("tab-1")}
-                    className="flex items-center justify-center p-2 border-b-2 border-r-2 border-black w-28 focus:outline-none"
+                    className="flex items-center justify-center p-2 bg-white border-b-2 border-r-2 border-black w-28 focus:outline-none"
                   >
                     <img src="/assets/icon-0.svg" alt="" className="h-24" />
                   </button>
@@ -877,7 +882,7 @@ export default function Basket() {
                     <img src="/assets/icon-3.svg" alt="" className="h-24" />
                   </button>
                 </div>
-                <div className="px-10 bg-[#0F8B5D] text-white pt-10">
+                <div className="px-10 py-10 text-white">
                   <h2 className="text-3xl font-bold">Forestry</h2>
                   <h3 className="mt-4 text-lg font-bold leading-tight">
                     Afforestation project in China (VCS 2087)
@@ -918,7 +923,7 @@ export default function Basket() {
               </div>
             </div>
             <div className="w-[45%] flex flex-col">
-              <div className="flex-1 px-16 py-10 border-b-2 border-black ">
+              <div className="flex-1 px-12 py-10 border-b-2 border-black ">
                 <h2 className="text-3xl font-bold text-center">
                   BeZero Carbon Rating: AA+
                 </h2>
