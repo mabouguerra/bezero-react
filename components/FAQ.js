@@ -96,7 +96,7 @@ export default function FAQ() {
 
           <div
             onClick={() => setFaq(null)}
-            className={`absolute cursor-pointer overflow-y-scroll inset-y-0.5 inset-x-[18px] bg-white ${
+            className={`absolute cursor-pointer overflow-y-scroll inset-y-0 border-t-0 inset-x-4 border-2 border-black bg-white ${
               faq !== "faq-1" ? "hidden" : ""
             }`}
           >
@@ -131,7 +131,7 @@ export default function FAQ() {
           </div>
           <div
             onClick={() => setFaq(null)}
-            className={`absolute cursor-pointer inset-y-0.5 inset-x-[18px] overflow-y-scroll bg-white ${
+            className={`absolute cursor-pointer inset-y-0 inset-x-4 border-2 border-black border-t-0 overflow-y-scroll bg-white ${
               faq !== "faq-2" ? "hidden" : ""
             }`}
           >
@@ -163,7 +163,7 @@ export default function FAQ() {
           </div>
           <div
             onClick={() => setFaq(null)}
-            className={`absolute cursor-pointer inset-y-0.5 inset-x-[18px] overflow-y-scroll bg-white ${
+            className={`absolute cursor-pointer inset-y-0 inset-x-4 border-black border-2 border-t-0 overflow-y-scroll bg-white ${
               faq !== "faq-3" ? "hidden" : ""
             }`}
           >
@@ -204,7 +204,7 @@ export default function FAQ() {
           </div>
           <div
             onClick={() => setFaq(null)}
-            className={`absolute cursor-pointer inset-y-0.5 inset-x-[18px] overflow-y-scroll bg-white ${
+            className={`absolute cursor-pointer inset-y-0 inset-x-4 border-2 border-black border-t-0 overflow-y-scroll bg-white ${
               faq !== "faq-4" ? "hidden" : ""
             }`}
           >
@@ -247,7 +247,7 @@ export default function FAQ() {
           </div>
           <div
             onClick={() => setFaq(null)}
-            className={`absolute cursor-pointer inset-y-0.5 inset-x-[18px] overflow-y-scroll bg-white ${
+            className={`absolute cursor-pointer inset-y-0 inset-x-4 border-black border-2 border-t-0 overflow-y-scroll bg-white ${
               faq !== "faq-5" ? "hidden" : ""
             }`}
           >
@@ -282,7 +282,7 @@ export default function FAQ() {
           </div>
           <div
             onClick={() => setFaq(null)}
-            className={`absolute cursor-pointer inset-y-0.5 inset-x-[18px] overflow-y-scroll bg-white ${
+            className={`absolute cursor-pointer inset-y-0 inset-x-4 border-black border-2 border-t-0 overflow-y-scroll bg-white ${
               faq !== "faq-6" ? "hidden" : ""
             }`}
           >
